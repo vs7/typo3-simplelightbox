@@ -1,0 +1,30 @@
+{
+	"name" : "vs7/typo3-simplelightbox",
+	"type" : "typo3-cms-extension",
+	"description" : "Lightbox extension based on simpleLightbox() without dependencies.",
+	"keywords": [
+        "TYPO3",
+        "lightbox",
+		"simplelightbox"
+    ],
+    "homepage": "https://github.com/vs7/typo3-simplelightbox",
+	"authors" : [
+		{
+            "name": "Vladislav Gevlich",
+            "email": "vs7develop@gmail.com",
+            "role": "Developer",
+            "homepage": "https://vs7.io"
+        }
+	],
+	"license": [
+		"MIT"
+	],
+	"require" : {
+		"typo3/cms-core": "^13.4"
+	},
+    "extra": {
+		"typo3/cms": {
+			"extension-key": "simplelightbox"
+		}
+	}
+}

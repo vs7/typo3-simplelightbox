@@ -1,0 +1,26 @@
+tt_content.image.20.1.imageLinkWrap {
+	JSwindow = 0
+	crop >
+	directImageLink = 1
+	linkParams.ATagParams.dataWrap = class="simplelightbox"
+}
+
+lib.contentElement.settings.media.popup {
+	JSwindow = 0
+	crop >
+	directImageLink = 1
+	linkParams.ATagParams.dataWrap = class="simplelightbox"
+}
+
+page.includeCSS {
+	simplelightbox = EXT:simplelightbox/Resources/Public/CSS/simpleLightbox.min.css
+	simplelightbox.media = screen
+}
+
+page.includeJSFooter {
+	simplelightbox = EXT:simplelightbox/Resources/Public/JavaScript/simpleLightbox.min.js
+}
+
+page.jsFooterInline.957 = COA
+page.jsFooterInline.957.10 = TEXT
+page.jsFooterInline.957.10.value = new SimpleLightbox({elements: "a.simplelightbox"});
